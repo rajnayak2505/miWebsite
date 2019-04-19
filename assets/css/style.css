@@ -362,3 +362,43 @@ h2+span+p {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 /*=======Page- Content Starts Ends=======*/
+
+
+/*=======Star Products Starts Starts=======*/
+.star-prod { background-color:#f5f5f5;  }
+
+h3 {
+  padding: 74px 0 42px 0;
+  font-size: 30px;
+  color: #616161;
+  text-transform: uppercase;
+}
+
+h3::before,
+h3::after {
+    display: inline-block;
+    content: "";
+    border-top: 1px solid #e0e0e0;
+    width: 30%;
+    margin: 0 2rem;
+    transform: translateY(-.6rem);
+}
+
+.star-prod .wrapper {
+  width: 91%;
+  text-align: center;
+}
+
+.pro-box {
+  display: flex;
+}
+
+.right-prod ul {
+  display: flex;
+}
+
+.left-prod:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*=======Star Products Starts Ends=======*/
