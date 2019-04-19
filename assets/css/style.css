@@ -507,5 +507,41 @@ h3::after {
 }
 
 /*=======In The Press  Starts Ends=======*/
+/*=======Porduct Review  Starts Strats=======*/
+.prod-rev { background-color: #f5f5f5; }
 
+.prod-rev .wrapper {
+  width: 91%;
+  text-align: center;
+}
+
+.prod-rev ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.prod-rev ul li { width:  49.5%;}
+
+.prod-rev ul li:hover {
+  transform: scale(1.01);
+  transition: all .2s linear;
+}
+
+.prod-rev ul li:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.prinfo {
+  width: 100%;
+  background-color: #fff;
+}
+
+.prinfo p {
+  display: block;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 600;
+  left: 0;
+}
+/*=======Porduct Review  Starts Ends=======*/
 
