@@ -544,4 +544,47 @@ h3::after {
   left: 0;
 }
 /*=======Porduct Review  Starts Ends=======*/
+/*=======Videos  Starts Strats=======*/
+.videos { background-color: #f5f5f5; }
 
+.videos .wrapper {
+  width: 91%;
+  text-align: center;
+}
+
+.videos ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.videos ul li {
+  position: relative;
+  flex-basis: 33.6%;
+}
+
+.info {
+  color: #fff;
+  font-size: 15px;
+  text-transform: capitalize;
+  position: absolute;
+  left: 50%;
+  bottom: 27%;
+  transform: translate(-50%,-50%);
+}
+
+.videos ul li .fa-play {
+  color: #ffffff;
+  position: absolute;
+  padding: 35px;
+  border-radius: 50%;
+  background-color: rgba(255,255,255,.1);
+  left: 50%;
+  bottom: 32%;
+  transform: translate(-50%,-50%);
+  transition: background .2s linear;
+}
+
+.videos ul li:hover .fa-play {
+  background-color: rgba(255,255,255,.5);
+}
+/*=======Videos  Starts Ends=======*/
